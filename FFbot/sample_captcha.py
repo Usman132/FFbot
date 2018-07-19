@@ -2,4 +2,4 @@
 # parameters and return the expected str value Hint: You might need to think backwards to
 # find a solution
 def solve(alpha, beta, gamma):
-    return ''
+    return f'{beta};{alpha[::-1]};{gamma*2}'
